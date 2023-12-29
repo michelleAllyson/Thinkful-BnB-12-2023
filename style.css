@@ -297,6 +297,10 @@ footer p {
   .label-and-input {
     display: flex;
     flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex: 1;
+    font-size: 12px;
   }
 
   .search-button {

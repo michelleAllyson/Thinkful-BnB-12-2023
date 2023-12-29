@@ -3,6 +3,7 @@
 12/28
 
 - Fixed ideas section images
+- Forms font set to 12px on MQ to fit placeholder correctly
 - Cleaned up css to remove styles not being used
 
 12/27
