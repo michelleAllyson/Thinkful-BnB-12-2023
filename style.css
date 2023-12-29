@@ -1,11 +1,3 @@
-/* -------  targeting specific elements ------- */
-/* .status-check-tq {
-  border: 3px solid turquoise;
-}
-
-.status-check-or {
-  border: 3px solid orange;
-} */
 
 /* -------  flex properties ------- */
 
@@ -127,10 +119,8 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
-/* -------  Search Form ------- */
 
-/* -------BEGIN------- MOBILE VIEW STAY & FORM STYLING DO NOT REVISE --------- */
-/*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+/* -------BEGIN-------   MFV STAY & FORM STYLING ------- */
 
 #stay {
   display: flex;
@@ -165,7 +155,6 @@ form label {
   font-weight: bold; /*--styling provided by starter--*/
 }
 
-/*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
 
 form select,
 form input {
@@ -185,11 +174,11 @@ form button {
   width: 100%; /*--styling provided by starter--*/
 }
 
-/*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
-/* ------- MOBILE VIEW STAY & FORM STYLING DO NOT REVISE --------- END --------- */
+/* ------- MFV STAY & FORM STYLING -------- END --------- */
 
-/* -------BEGIN-------  Host Content ------- */
-/*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+
+
+/* -------BEGIN-------  Host Content MFV ------- */
 
 .target-host-list {
   margin-top: 10px;
@@ -203,7 +192,6 @@ ul li {
   font-size: medium;
 }
 
-/*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
 /* ------  Host Content --------END------- */
 
 /* -------  Footer ------- */
@@ -237,9 +225,8 @@ footer p {
     font-size: 38px;
   }
 
-  /* -------  BEGIN ------ STAY & FORM STYLING MQ DO NOT REVISE ------- */
+  /* -------  BEGIN ------ STAY & FORM STYLING MQ ------- */
 
-  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
 
   #stay form div {
     flex: 1;
@@ -253,7 +240,7 @@ footer p {
     margin-right: 5px;
   }
 
-  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+  
   #stay form select,
   #stay form input {
     width: calc(100% - 1px);
@@ -268,7 +255,7 @@ footer p {
     padding-right: 7px;
     width: 66%;
   }
-  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+  
   form button {
     background-color: #ff385c;
     display: flex;
@@ -280,7 +267,6 @@ footer p {
     justify-content: center;
     margin-top: 0;
   }
-  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
 
   form {
     border: 2px solid #ff385c;
@@ -318,9 +304,10 @@ footer p {
     top: 4px;
   }
 
-  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+  /* ------- STAY & FORM STYLING  --------- END --------- */
 
-  /* ------- STAY & FORM STYLING MQ DO NOT REVISE --------- END --------- */
+
+
 
   /* -------BEGIN----- ABOUT STYLING MQ --------- */
   .about-images-and-text-flex {
@@ -337,33 +324,33 @@ footer p {
     display: flex;
     align-items: center;
   }
-  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+  
   /* ------- ABOUT STYLING MQ --------- END --------- */
+
+
   /* -------BEGIN----- IDEAS STYLING MQ --------- */
   .ideas-container {
     display: flex;
     flex-direction: column;
-    /* align-items: center;  */
   }
 
   .ideas-row {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-evenly;  */
   }
+
   .column {
     width: 50%;
     margin: 10px;
   }
 
-  #ideas img {
-    /* width: 500px; */
-  }
 
   /* ------- IDEAS STYLING MQ --------- END --------- */
 
+
+
   /* -------BEGIN----- HOST STYLING MQ --------- */
-  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+  
   #host {
     display: flex;
     align-items: center;
@@ -389,7 +376,7 @@ footer p {
     margin: 0;
     padding: 0;
   }
-  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+  
   .add-padding {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -416,6 +403,6 @@ footer p {
   #host h2 {
     font-size: 18px;
   }
-  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+  
   /* ------- HOST STYLING MQ --------- END --------- */
 }
