@@ -12,8 +12,6 @@
 - Host section revised for desktop view--font changes & indentation on ul
 - Host section revised mobile view--host view DONE
 
-REVISIT
-- Bottom of header in desktop view--make smaller
 
 
 12/26
