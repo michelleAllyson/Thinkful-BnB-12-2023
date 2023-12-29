@@ -1,0 +1,421 @@
+/* -------  targeting specific elements ------- */
+/* .status-check-tq {
+  border: 3px solid turquoise;
+}
+
+.status-check-or {
+  border: 3px solid orange;
+} */
+
+/* -------  flex properties ------- */
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  /*--on forms parent div to stack top to bottom--*/
+}
+
+/* -------  General Styles ------- */
+
+#menu {
+  text-align: center;
+  padding: 0 5rem 1rem 5rem;
+}
+
+.container-fill {
+  width: 90%;
+  margin: 1rem;
+}
+
+.center {
+  text-align: center;
+}
+
+ul {
+  margin: auto;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  font-size: 26px; /*--styling provided by starter--*/
+  font-weight: 400; /*--styling provided by starter--*/
+  margin: 0 10px 10px 10px; /*--styling provided by starter--*/
+  text-align: center; /*--styling provided by starter-- */
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.5em;
+  margin: 0;
+}
+
+section {
+  padding: 20px;
+}
+
+section.alternate-background {
+  background-color: #00a699;
+  color: #fff;
+}
+
+main #about img,
+main #host img,
+main #ideas img {
+  width: 100%;
+  align-items: center;
+  margin: auto; /* keep on auto, fixed virtually all images*/
+}
+
+.main p {
+  width: 80%;
+}
+
+/* ---  Groups & Items --- */
+.flex-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.group {
+  display: flex;
+  flex-direction: column; /* Should be for laying things out up and down the screen */
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* -------  Navigation ------- */
+
+header {
+  background-color: #ff385c;
+  padding: 20px 20px 0 20px;
+  text-align: center;
+}
+
+.logo {
+  font-family: "Pangolin", cursive;
+  font-size: 72px;
+  color: #fff;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-size: medium;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a:hover {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+/* -------  Search Form ------- */
+
+/* -------BEGIN------- MOBILE VIEW STAY & FORM STYLING DO NOT REVISE --------- */
+/*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+
+#stay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-container.form {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.label-and-input {
+  display: flex;
+  flex-direction: row;
+  margin: 0 10px;
+  flex-grow: 1;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+form {
+  border: 2px solid #ff385c; /*--styling provided by starter--*/
+  padding: 10px; /*--styling provided by starter--*/
+  display: flex;
+  margin: auto;
+  width: 100%;
+  max-width: 320px;
+}
+
+form label {
+  font-weight: bold; /*--styling provided by starter--*/
+}
+
+/*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+
+form select,
+form input {
+  width: 180px;
+  height: 25px;
+  display: inline-block;
+  margin-bottom: 10px; /* Add margin for better spacing */
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #ff385c; /*--styling provided by starter--*/
+  border: none; /*--styling provided by starter--*/
+  color: #fff; /*--styling provided by starter--*/
+  font-size: 24px; /*--styling provided by starter--*/
+  padding: 11px; /*--styling provided by starter--*/
+  width: 100%; /*--styling provided by starter--*/
+}
+
+/*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+/* ------- MOBILE VIEW STAY & FORM STYLING DO NOT REVISE --------- END --------- */
+
+/* -------BEGIN-------  Host Content ------- */
+/*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+
+.target-host-list {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  width: auto;
+  list-style-position: outside;
+}
+
+ul li {
+  margin-left: 30px;
+  font-size: medium;
+}
+
+/*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+/* ------  Host Content --------END------- */
+
+/* -------  Footer ------- */
+
+footer {
+  background-color: #ff385c;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* -------  Media Query ------- */
+@media screen and (min-width: 769px) {
+  /* Your styles for screens wider than 768px go here */
+  .mobile-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+
+  ul#menu.flex-row {
+    padding: 0;
+  }
+
+  .logo {
+    font-size: 38px;
+  }
+
+  /* -------  BEGIN ------ STAY & FORM STYLING MQ DO NOT REVISE ------- */
+
+  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+
+  #stay form div {
+    flex: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .align-search-button-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+  }
+
+  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+  #stay form select,
+  #stay form input {
+    width: calc(100% - 1px);
+    margin-bottom: 0;
+  }
+
+  .button-container {
+    display: flex;
+    font-size: 18px;
+    justify-content: end;
+    align-items: stretch;
+    padding-right: 7px;
+    width: 66%;
+  }
+  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+  form button {
+    background-color: #ff385c;
+    display: flex;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    height: 44px;
+    width: 120px;
+    justify-content: center;
+    margin-top: 0;
+  }
+  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+
+  form {
+    border: 2px solid #ff385c;
+    padding: 15px;
+    max-width: none;
+    margin: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 2px 5px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  } /*--on forms parent div to align horizontally at MQ-*/
+
+  .flex-container.form {
+    align-items: center;
+  }
+
+  #stay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .label-and-input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search-button {
+    position: relative;
+    top: 4px;
+  }
+
+  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+
+  /* ------- STAY & FORM STYLING MQ DO NOT REVISE --------- END --------- */
+
+  /* -------BEGIN----- ABOUT STYLING MQ --------- */
+  .about-images-and-text-flex {
+    display: flex;
+  }
+
+  .image-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .text-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+  /* ------- ABOUT STYLING MQ --------- END --------- */
+  /* -------BEGIN----- IDEAS STYLING MQ --------- */
+  .ideas-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;  */
+  }
+
+  .ideas-row {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly;  */
+  }
+  .column {
+    width: 50%;
+    margin: 10px;
+  }
+
+  #ideas img {
+    /* width: 500px; */
+  }
+
+  /* ------- IDEAS STYLING MQ --------- END --------- */
+
+  /* -------BEGIN----- HOST STYLING MQ --------- */
+  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+  #host {
+    display: flex;
+    align-items: center;
+  }
+  .host-row {
+    display: flex;
+  }
+
+  .host-half-width {
+    width: 50%;
+    align-items: center;
+  }
+
+  .host-text {
+    align-items: center;
+    justify-content: center;
+    font-size: x-small;
+  }
+
+  #host .host-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+  .add-padding {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  #host img {
+    width: 95%;
+    margin-left: 20px;
+    margin-right: 0;
+  }
+
+  .target-host-list {
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: auto;
+    list-style-position: outside;
+  }
+
+  ul li {
+    margin-left: 20px;
+    font-size: x-small;
+  }
+
+  #host h2 {
+    font-size: 18px;
+  }
+  /*  DONE    DONE   DONE   DONE   DONE  DONE  DONE  DONE  DONE  DONE DONE   DONE */
+  /* ------- HOST STYLING MQ --------- END --------- */
+}
